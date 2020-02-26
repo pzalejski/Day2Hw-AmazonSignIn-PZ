@@ -10,6 +10,7 @@
     margin-bottom: 15px;
     background-color:rgb(216, 194, 0);
     border-color: black;
+    font-size: 12px;
 }
 
 #contbtn:hover {
@@ -23,6 +24,7 @@
     width: 100%;
     margin-bottom: 50px;
     background-color: rgb(211, 210, 210);
+    font-size: 12px;
 }
 
 .btn-secondary:hover {
@@ -30,6 +32,17 @@
     color: black;
 }
 
+#ndhlp {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    font-size: 12px;
+}
+
+form label {
+    font-weight: bold;
+}
 
 footer {
     margin-top: auto;
