@@ -1,0 +1,91 @@
+#main-content{
+    margin-top: 100px;
+
+}
+
+.btn-primary{
+    color: black;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color:rgb(216, 194, 0);
+    border-color: black;
+}
+
+#contbtn:hover {
+    background-color:rgb(194, 175, 2);
+    color: black;
+    border-color: black;
+}
+
+.btn-secondary {
+    color: black;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(211, 210, 210);
+}
+
+.btn-secondary:hover {
+    background-color: rgb(179, 179, 179);
+    color: black;
+}
+
+
+footer {
+    margin-top: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.nav-item {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+#signcont, #newcont {
+    max-width: 500px;
+}
+
+h6 {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin: 15px 0 25px 0;
+}
+
+h6:before, h6::after {
+    background-color: gray;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 37%;
+}
+
+h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h6::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* h6 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    text-align: center;  
+    border-bottom: 1px solid rgb(207, 207, 207); 
+    line-height: 0.1em;
+    margin: 30px 0 50px ; */
+}
+
+/*h6 span {
+    max-width: 500px;
+    background: #fff;
+    padding: 0 10px;
+}*/
